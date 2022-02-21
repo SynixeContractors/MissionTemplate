@@ -14,4 +14,4 @@ CUP_stopLampCheck = true;
 }] call CBA_fnc_addEventHandler;
 
 // TODO replace with function
-execVM "edit_me\briefing.sqf";
+[player] execVM "edit_me\briefing.sqf";
