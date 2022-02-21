@@ -12,3 +12,6 @@ CUP_stopLampCheck = true;
         ], 1, 0.75, "<t align = 'center' shadow = '1' size = '1.0'>%1</t>"
     ] spawn BIS_fnc_typeText;
 }] call CBA_fnc_addEventHandler;
+
+// TODO replace with function
+execVM "edit_me\briefing.sqf";
