@@ -59,7 +59,7 @@ switch (side _player) do {
         "]];
 
         _player createDiaryRecord ["Diary", ["Objectives", "
-            <br/>The overall description of the objective for Theseus to complete
+            <br/>The overall description of the objective for Synixe to complete
             <br/>
             <br/><font color='#E3D310'>PRIMARY OBJECTIVES:</font color>
             <br/>- A quick summary of the primary objectives to be completed for mission success
