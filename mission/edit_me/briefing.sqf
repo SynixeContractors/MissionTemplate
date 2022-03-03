@@ -1,4 +1,4 @@
-#include "..\script_component.hpp"
+#include "..\do_not_edit\script_component.hpp"
 /*
  * Author: Kresky, Jonpas
  * Adds briefing based on side.

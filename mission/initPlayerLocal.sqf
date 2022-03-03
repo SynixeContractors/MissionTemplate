@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "do_not_edit\script_component.hpp"
 
 // Disable CUP street lights based on lighting levels (bad performance script)
 CUP_stopLampCheck = true;
