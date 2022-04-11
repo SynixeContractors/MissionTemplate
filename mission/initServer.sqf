@@ -3,7 +3,7 @@
 // Calculate mission start
 
 systemTimeUTC params ["", "", "", "_hour", "_minute"];
-private _startTime = 3; // 0300 UTC
+private _startTime = 2; // 0200 UTC
 if (_hour > 12) then {
 	_hour = _hour - 24;
 };

@@ -40,45 +40,38 @@ switch (side _player) do {
 
     };
 
-    // RESISTANCE/INDEPENDENT briefing
+    // RESISTANCE/INDEPENDENT briefing -- THIS IS THE BRIEFING YOU WANT TO EDIT FOR YOUR MISSION!
     case resistance: {
-		_player createDiaryRecord ["Diary", ["Intelligence", "
-            <br/>You can flesh out the intel we have on enemy compositions and equipment here
-            <br/>As well as other things that fits the intel section
-        "]];
-
-        _player createDiaryRecord ["Diary", ["Equipment", "
-            <br/><font color='#0ECE68'>GROUND ASSETS:</font color>
-            <br/>- N/A
-            <br/>
-            <br/><font color='#0ECE68'>AIR ASSETS:</font color>
-            <br/>- N/A
-            <br/>
-            <br/><font color='#0ECE68'>SPECIAL ASSETS:</font color>
-            <br/>- N/A
-        "]];
-
-        _player createDiaryRecord ["Diary", ["Objectives", "
-            <br/>The overall description of the objective for Synixe to complete
-            <br/>
-            <br/><font color='#E3D310'>PRIMARY OBJECTIVES:</font color>
-            <br/>- A quick summary of the primary objectives to be completed for mission success
-            <br/>
-            <br/><font color='#E3D310'>SECONDARY OBJECTIVES:</font color>
-            <br/>- A quick summary of the secondary objectives that can be completed
+		_player createDiaryRecord ["Diary", ["Employer", "
+            <br/>INSERT NAME OF EMPLOYER HERE
         "]];
 
         _player createDiaryRecord ["Diary", ["Situation", "
-            <br/>The overall situation of the mission scenario goes here
+            <br/><font color='#D81717'>ENEMY FORCES:</font color>
+            <br/>INSERT ENEMIES HERE
+            <br/>INSERT ENEMY AMLCOA (Most Likely Course of Action, AKA, what they're doing, how they act, how they'll act towards us, what we know, etc)
             <br/>
             <br/><font color='#1D69F6'>FRIENDLY FORCES:</font color>
-            <br/>- Synixe Contractors
+            <br/>Synixe Contractors, INSERT FRIENDLIES HERE
             <br/>
             <br/><font color='#139120'>INDEPENDENT FORCES:</font color>
-            <br/>- Remove this section if there's no independent forces
+            <br/>INSERT INDEPENDENT FORCES IF THERE ARE ANY, OTHERWISE REMOVE THIS LINE AND ONE ABOVE
+
+            <br/><font color='#993399'>CIVILIAN CONSIDERATIONS:</font color>
+            <br/>INSERT THINGS TO CONSIDER ABOUT CIVILIANS, PRESENCE/ABSENCE AND/OR BEHAVIOUR/SUPPORT TO FRIENDLIES OR ENEMIES
+
+            <br/><font color='#663300'>TERRAIN CONSIDERATIONS:</font color>
+            <br/>INSERT ANYTHING YOU FIND RELEVANT ABOUT HOW THE TERRAIN MAY BE ADVANTAGEOUS OR DISADVANTAGEOUS
+        "]];
+
+        _player createDiaryRecord ["Diary", ["Mission", "
+            <br/>YOU CAN WRITE YOUR MISSION DESCRIPTION HERE,
             <br/>
-            <br/><font color='#D81717'>ENEMY FORCES:</font color>
-            <br/>- Enemy combatants
+            <br/>THE BR THING INDICATES THE BEGINNING OF EACH PARAGRAPH, IF LEFT EMPTY, IT'LL BE A SPACE.
+            <br/>
+            <br/>YOU CAN ADD AS MUCH AS YOU FEEL IS RELEVANT.
+            <br/>
+            <br/>AS A RULE OF THUMB, CONSIDER: WHO, WHAT (TASKS), WHERE, WHEN, AND WHY
         "]];
     };
 
