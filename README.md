@@ -3,16 +3,17 @@
 
 ## File Setup
 
-1. Create a new mission in the Eden Editor.
+1. Create a new mission in the Eden Editor in it's entirety.
 2. Save the mission.
 3. Open the mission folder. `Scenario > Open Scenario Folder`
-4. Copy all the files from `/mission` into your mission folder.
+4. Copy all the files from `/mission` into your mission folder, which should only contain `mission.sqm`.
+Normally, your mission will be saved to `Documents/Arma 3 - Other Profiles/YOURPROFILENAME/mpmissions` (you should save them there in Eden, or export them to Multiplayer then they'll show up there.)
 
 ## Editor Setup
 
 ### Setup the Players
 
-1. Place the player groupm found in `Compositions > Independent > Synixe Contractors > Base Components > Players`
+1. Place the player group found in `Compositions > Independent > Synixe Contractors > Base Components > Players`
 2. Highlight all units in the group.
 3. Right click on one of the units, select `Attributes`
 4. Navigate down to the `Object: Control` section
@@ -28,6 +29,15 @@ You are able to use any base you want. In the future a few templates will be pro
 3. Place an empty marker at the location you want players to respawn, found under `Markers > Icons > System > Empty`
 4. Open the attributes of the marker.
 5. Set the Variable Name to `respawn`
+
+### Setup Shops
+
+As per the PMC system, you'll need to set up shops for players to manage their inventories.
+
+1. Build the Base.
+2. Add three shop objects of any kind, prefferably some kind of crate or box.
+3. Right click on one of the units, select `Attributes`
+4. Change the `VariableName` to `shop1`, `shop2` and `shop3` for each one of them.
 
 ## File Setup
 
