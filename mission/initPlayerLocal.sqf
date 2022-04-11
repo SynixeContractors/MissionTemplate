@@ -16,8 +16,10 @@ CUP_stopLampCheck = true;
 // TODO replace with function
 [player] execVM "edit_me\briefing.sqf";
 
-persistent_gear_shop_arsenal_shops pushBack shop1;
-persistent_gear_shop_arsenal_shops pushBack shop2;
-persistent_gear_shop_arsenal_shops pushBack shop3;
+{
+  if !(isNull _x) then {
+    persistent_gear_shop_arsenal_shops pushBack _x;
+  };
+} forEach [shop_1, shop_2, shop_3, shop_4, shop_5, shop_6, shop_7, shop_8, shop_9, shop_10];
 
 call persistent_gear_shop_arsenal_fnc_create_actions;
