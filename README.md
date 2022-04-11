@@ -1,5 +1,27 @@
 # Mission Template
 
+## Mission Name Template
+
+Missions should be named in the format:
+
+```
+{Type}{Players}_{Author}_{Name}
+```
+
+Mission Types
+| Mission Type | TAG |
+|--------------|-----|
+| Contract     | CO  |
+| Subcontract  | SCO |
+| Training     | TRA |
+| Special      | SPA |
+
+Examples
+
+`CO30_Brett_ThroughThePassage`
+`SCO30_Felix_WhisperingWinds`
+`TRA30_Arsey_ParajumpScenario`
+`SPC12_Brett_6v6CTF`
 
 ## File Setup
 
@@ -37,7 +59,7 @@ As per the PMC system, you'll need to set up shops for players to manage their i
 1. Build the Base.
 2. Add three shop objects of any kind, prefferably some kind of crate or box.
 3. Right click on one of the units, select `Attributes`
-4. Change the `VariableName` to `shop1`, `shop2` and `shop3` for each one of them.
+4. Change the `VariableName` to `shop_1`, `shop_2` and `shop_3` for each one of them.
 
 ## File Setup
 
