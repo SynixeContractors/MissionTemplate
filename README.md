@@ -5,7 +5,7 @@
 Missions should be named in the format:
 
 ```
-{Type}{Players}_{Author}_{Name}
+{Type}{Players}_{Author}_{Name}.{MapName}
 ```
 
 Mission Types
@@ -18,10 +18,10 @@ Mission Types
 
 Examples
 
-`CO30_Brett_ThroughThePassage`
-`SCO30_Felix_WhisperingWinds`
-`TRA30_Arsey_ParajumpScenario`
-`SPC12_Brett_6v6CTF`
+`CO30_Brett_ThroughThePassage.Tem_Kujari`
+`SCO30_Felix_WhisperingWinds.Woodland_ACR`
+`TRA30_Arsey_ParajumpScenario.Chernarus_Winter`
+`SPC12_Brett_6v6CTF.Shapur_BAF`
 
 ## File Setup
 
