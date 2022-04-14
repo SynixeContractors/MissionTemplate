@@ -56,10 +56,10 @@ switch (side _player) do {
             <br/>
             <br/><font color='#139120'>INDEPENDENT FORCES:</font color>
             <br/>INSERT INDEPENDENT FORCES IF THERE ARE ANY, OTHERWISE REMOVE THIS LINE AND ONE ABOVE
-
+            <br/>
             <br/><font color='#993399'>CIVILIAN CONSIDERATIONS:</font color>
             <br/>INSERT THINGS TO CONSIDER ABOUT CIVILIANS, PRESENCE/ABSENCE AND/OR BEHAVIOUR/SUPPORT TO FRIENDLIES OR ENEMIES
-
+            <br/>
             <br/><font color='#663300'>TERRAIN CONSIDERATIONS:</font color>
             <br/>INSERT ANYTHING YOU FIND RELEVANT ABOUT HOW THE TERRAIN MAY BE ADVANTAGEOUS OR DISADVANTAGEOUS
         "]];
