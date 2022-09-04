@@ -14,7 +14,7 @@ Mission Types
 | Contract     | CO  |
 | Subcontract  | SCO |
 | Training     | TRA |
-| Special      | SPA |
+| Special      | SPC |
 
 Examples
 
