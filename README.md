@@ -57,9 +57,9 @@ You are able to use any base you want. In the future a few templates will be pro
 As per the PMC system, you'll need to set up shops for players to manage their inventories.
 
 1. Build the Base.
-2. Add three shop objects of any kind, prefferably some kind of crate or box.
-3. Right click on one of the units, select `Attributes`
-4. Change the `VariableName` to `shop_1`, `shop_2` and `shop_3` for each one of them.
+2. Add at least three shop objects of any kind, prefferably some kind of crate or box.
+3. Double click on the objects
+4. Check `Shop` under `Commander - Persistent Gear`
 
 ## File Setup
 
