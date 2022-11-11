@@ -12,7 +12,7 @@ If you don't know what to put in one of those fields (e.g. terrain consideration
 
 For description.ext:
 You wanna edit text in "quotation marks" for OnLoadName, OnLoadMission, and Author, by default, the template is self-explanatory on what each one of these is.
-Remember to edit the contents between the braces "synixe_start_time"; this is in HH,MM format. Set it accordingly to the mission start time you wanted,
+Remember to edit the "synixe_start_time"; Set it accordingly to the mission start time you wanted,
 this will be useful incase your mission gets loaded in the server early. It'll make it automatically offset so that it will be the start time you desired
 by Synixe's operation start time.
 

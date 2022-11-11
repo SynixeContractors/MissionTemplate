@@ -42,7 +42,7 @@ switch (side _player) do {
 
     // RESISTANCE/INDEPENDENT briefing -- THIS IS THE BRIEFING YOU WANT TO EDIT FOR YOUR MISSION!
     case resistance: {
-		_player createDiaryRecord ["Diary", ["Employer", "
+        _player createDiaryRecord ["Diary", ["Employer", "
             <br/>INSERT NAME OF EMPLOYER HERE
         "]];
 

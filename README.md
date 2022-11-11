@@ -8,6 +8,8 @@ Missions should be named in the format:
 {Type}{Players}_{Author}_{Name}.{MapName}
 ```
 
+You do not need to add the map name, as Arma will automatically add it.
+
 Mission Types
 | Mission Type | TAG |
 |--------------|-----|
@@ -85,6 +87,6 @@ For the majority of missions this file can remain untouched. If your mission wil
 
 #### synixe_start_time
 
-This variable stores the time as `{hour,minute}`. This is the time the mission will be at when our mission time starts.
+This variable stores the hour the mission should start.
 
-If the mission is loaded up 45 minutes before our start time and your mission is set to start at `{15,00}`, the mission will be set at `{14,15}` so that the correct time is reached when we start the mission.
+If the mission is loaded up 45 minutes before our start time and your mission is set to start at `15`, the mission will be set at `14:15` so that the correct time is reached when we start the mission.
