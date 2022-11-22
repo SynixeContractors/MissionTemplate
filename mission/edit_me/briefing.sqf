@@ -47,20 +47,20 @@ switch (side _player) do {
         "]];
 
         _player createDiaryRecord ["Diary", ["Situation", "
-            <br/><font color='#D81717'>ENEMY FORCES:</font color>
+            <br/><font color='#D81717'>ENEMY FORCES:</font>
             <br/>INSERT ENEMIES HERE
             <br/>INSERT ENEMY AMLCOA (Most Likely Course of Action, AKA, what they're doing, how they act, how they'll act towards us, what we know, etc)
             <br/>
-            <br/><font color='#1D69F6'>FRIENDLY FORCES:</font color>
+            <br/><font color='#1D69F6'>FRIENDLY FORCES:</font>
             <br/>Synixe Contractors, INSERT FRIENDLIES HERE
             <br/>
-            <br/><font color='#139120'>INDEPENDENT FORCES:</font color>
+            <br/><font color='#139120'>INDEPENDENT FORCES:</font>
             <br/>INSERT INDEPENDENT FORCES IF THERE ARE ANY, OTHERWISE REMOVE THIS LINE AND ONE ABOVE
             <br/>
-            <br/><font color='#993399'>CIVILIAN CONSIDERATIONS:</font color>
+            <br/><font color='#993399'>CIVILIAN CONSIDERATIONS:</font>
             <br/>INSERT THINGS TO CONSIDER ABOUT CIVILIANS, PRESENCE/ABSENCE AND/OR BEHAVIOUR/SUPPORT TO FRIENDLIES OR ENEMIES
             <br/>
-            <br/><font color='#663300'>TERRAIN CONSIDERATIONS:</font color>
+            <br/><font color='#663300'>TERRAIN CONSIDERATIONS:</font>
             <br/>INSERT ANYTHING YOU FIND RELEVANT ABOUT HOW THE TERRAIN MAY BE ADVANTAGEOUS OR DISADVANTAGEOUS
         "]];
 
