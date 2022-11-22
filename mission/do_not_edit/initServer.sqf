@@ -13,7 +13,7 @@ GVAR(timeUntilStart) = GVAR(timeUntilStart) max 0;
 }, [], GVAR(timeUntilStart) + 60] call CBA_fnc_waitAndExecute;
 
 [{time > 1}, {
-    private _startHour = getMissionConfigValue ["synixe_start_time", [20]];
+    private _startHour = getMissionConfigValue ["synixe_start_time", 12];
     private _startMinute = 0;
     if (GVAR(timeUntilStart) > 0) then {
         _startHour = floor (((_startHour * 3600) - GVAR(timeUntilStart)) / 3600);
