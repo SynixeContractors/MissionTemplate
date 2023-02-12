@@ -75,6 +75,8 @@ There are 5 different types of vehicle spawns.
 - `spawn_sea` - Spawns any sea vehicle
 - `spawn_thing` - Spawns any objects that are not vehicles (Crates, Fuel Cans, etc)
 
+Only `spawn_land` and `spawn_thing` are required, but the others should be placed whenever possible.
+
 1. Place an empty marker at the location you want the vehicle to spawn, found under `Markers > Icons > System > Empty`
 2. Open the attributes of the marker.
 3. Set the Variable Name to `spawn_land` or `spawn_heli` or `spawn_plane` or `spawn_sea` or `spawn_thing`
