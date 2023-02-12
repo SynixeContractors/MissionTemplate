@@ -65,6 +65,21 @@ As per the PMC system, you'll need to set up shops for players to manage their i
 3. Double click on the objects
 4. Check `Shop` under `Commander - Persistent Gear`
 
+### Setup Vehicle Spawns
+
+There are 5 different types of vehicle spawns.
+
+- `spawn_land` - Spawns land vehicles (Cars, APC, Tanks)
+- `spawn_heli` - Spawns helicopters
+- `spawn_plane` - Spawns planes
+- `spawn_sea` - Spawns any sea vehicle
+- `spawn_thing` - Spawns any objects that are not vehicles (Crates, Fuel Cans, etc)
+
+1. Place an empty marker at the location you want the vehicle to spawn, found under `Markers > Icons > System > Empty`
+2. Open the attributes of the marker.
+3. Set the Variable Name to `spawn_land` or `spawn_heli` or `spawn_plane` or `spawn_sea` or `spawn_thing`
+4. Ensure the area is clear of any objects, as that will prevent the vehicle from spawning.
+
 ## File Setup
 
 It is recommended to use VSCode with the `SQF Language` extension installed to edit the files, but any text editor will work.
