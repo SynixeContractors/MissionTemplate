@@ -44,6 +44,18 @@ If we want something to happen at a specific in-game time, we can put the follow
 `(date select 3)` stands for HOUR, while `(date select 4)` stands for MINUTES. This includes both of them, if you only want to use one or the other, you can keep one of either and remove the &&'s.
 ```
 
+## On Activation code snippets
+
+Here are some simple things you can use in the On Activation field for your missions.
+
+### Destroying an object
+
+If you want a unit to die, a car to explode, a building to collapse, or a bomb to go off, giving the aforementioned objects a variableName, and then using the following code within the trigger's On Activation field should do the trick:
+
+```sqf
+variableName setDammage 1;
+```
+
 ## Trigger-activated Waypoints
 
 As opposed to most normal waypoints, some waypoints never get completed on their own when the AI reach their position, and as such, they need something external to activate them; we will most commonly find ourselves using the HOLD and CYCLE waypoints under this premise.

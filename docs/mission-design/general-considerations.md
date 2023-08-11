@@ -30,6 +30,6 @@ An index is a sign which is related to the object it represents, but not directl
 
 To put this simply, smoke cannot exist without fire, but it is not fire; its presence lets us know, indirectly, that there is a fire nearby.
 
-If players are often finding IEDs in trash bags, that is going to turn into the 'implicit language' of the mission. If enemy garrisons always have a campfire nearby, they are going to start associating that as a mechanic within the mission. If all red cars are smuggling weapons... you know how it goes!
+If players are often finding IEDs in trash bags, that is going to turn into the 'implicit language' of the mission: trash bags have IEDs! If enemy garrisons always have a campfire nearby, they are going to start associating that as a mechanic within the mission: enempy encampments all have campfires! If all red cars are smuggling weapons... you know how it goes!
 
 This is generally a hit or miss, depending how explicit, how often and how long your mission is, not to mention how attentive players are being, but this is a subtle resource you can use to control your mission and guide players indirectly.
