@@ -10,7 +10,7 @@
     - [Building the Mission](mission-making/building-the-mission.md)
     - [Pushing to GitHub](mission-making/pushing-to-github.md)
 
-# Refference
+# Reference
 - [Mission Design](mission-design/README.md)
     - [General Considerations](mission-design/general-considerations.md)
     - [Waypoints & Triggers](mission-design/waypoints-and-triggers.md)
