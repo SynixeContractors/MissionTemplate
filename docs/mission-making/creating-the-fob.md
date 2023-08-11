@@ -59,3 +59,56 @@ It is possible to change the respawn points based on a trigger.
 3. Sync the `Respawn` objects to the `Trigger`.
 
 When the trigger is activated, any synced `Respawn` objects will become the only active respawn points.
+
+## Spectator Screens
+
+Spectator screens allow players to spectate the mission if they have died or join late to watch the mission.
+
+<video width="99%" loop muted markdown="1" controls>
+    <source src="../videos/arma3_fob_spectator.webm" type="video/webm" markdown="1">
+</video>
+
+1. Place a `Spectator Screen` object, found in `Objects > Props > Synixe Contractors > Electronics > Spectator Screen`.
+
+That is it! Players will now be able to spectate the mission.
+
+## Shop
+
+The shop is where players will be able to purchase and access their equipment.
+
+It is advised to place multiple shops around the FOB, so that players are able to spread out and not crowd around a single shop.
+
+<video width="99%" loop muted markdown="1" controls>
+    <source src="../videos/arma3_fob_shop.webm" type="video/webm" markdown="1">
+</video>
+
+1. Place any object that is a viable shop.
+2. Right click on the object, select `Attributes`.
+3. Navigate down to the ``Object: Crate - Persistent Gear`.
+4. Check `Shop`.
+
+## Vehicles
+
+Various kinds of vehicles can be spawned at the FOB.
+
+They are:
+- Land
+- Heli
+- Plane
+- Sea
+- Thing
+
+`Thing` is a special category that allows for non-enterable objects, jerry cans, crates, etc.
+
+You are required to place a `Land` and `Thing` spawn point. The other spawn points should be placed whenever possible.
+
+<video width="99%" loop muted markdown="1" controls>
+    <source src="../videos/arma3_fob_vehicles.webm" type="video/webm" markdown="1">
+</video>
+
+1. Find the appropriate spawn point in `Objects > Props > Synixe Contractors > Helpers`.
+2. Place the spawn point in a suitable location, ensuring no objects are colliding with it.
+
+Multiple spawn points can be placed, when an object is spawned, it will select the first available spawn point of the correct type and size.
+
+Small vehicles can use large spawn points, but large vehicles cannot use small spawn points.
