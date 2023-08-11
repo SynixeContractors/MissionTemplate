@@ -8,14 +8,14 @@ In most cases, we will need to define a variableName for the item we want to tra
 ```
 
 ### Checking if a specific unit, object, or vehicle, is alive
-If we put "alive variableName" in a trigger's condition field, we will check whether that item is alive or dead to activate the trigger. Once they are dead, the trigger will be activated. If we want to check for the opposite, we can use "!alive variableName" inside the trigger's condition field.
+If we put `alive variableName` in a trigger's condition field, we will check whether that item is alive or dead to activate the trigger. Once they are dead, the trigger will be activated. If we want to check for the opposite, we can use `!alive variableName` inside the trigger's condition field.
 
 ```admonish info
 Do you want something to happen when a certain unit is killed, or when a structure is destroyed? This is the way!
 ```
 
 ### Checking if a specific unit, object, or vehicle, is inside the trigger
-We can use "variableName in thisList" inside a trigger's condition field to check if a specific unit is present inside of it.
+We can use `variableName in thisList` inside a trigger's condition field to check if a specific unit is present inside of it.
 
 ### Checking if another trigger was activated beforehand
 If we want to have a trigger depend on another trigger, we can use "triggerActivated triggerName" within another trigger's condition field to make it depend upon another trigger having been activated previously, meaning that, this trigger won't activate on it's own.
