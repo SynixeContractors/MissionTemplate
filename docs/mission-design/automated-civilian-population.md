@@ -40,13 +40,37 @@ AFRICAN (Vehicles)
 C_Quadbike_01_F, C_Offroad_02_unarmed_F, C_Van_01_transport_F, C_Van_01_box_F, C_Tractor_01_F
 ```
 
-TAKISTAN (Pedestrians)
+CHERNARUS (Pedestrians, CUP)
+
+```sqf
+CUP_C_C_Bully_03,  CUP_C_C_Bully_02,  CUP_C_C_Citizen_01,  CUP_C_C_Citizen_03,  CUP_C_C_Profiteer_02,  CUP_C_C_Racketeer_01,  CUP_C_C_Rocker_03,  CUP_C_C_Villager_03,  CUP_C_C_Villager_04,  CUP_C_C_Woodlander_03
+```
+
+CHERNARUS (Vehicles, CUP)
+
+```sqf
+CUP_C_Lada_CIV,  CUP_C_SUV_CIV,  CUP_C_Volha_CR_CIV,  CUP_C_Skoda_CR_CIV
+```
+
+LIVONIA (Pedestrians)
+
+```sqf
+C_Man_casual_2_F_euro, C_Man_casual_3_F_euro, C_Man_casual_6_v2_F_euro, C_Man_casual_7_F_euro, C_Man_casual_8_F_euro, C_Man_formal_1_F_euro, C_Man_formal_4_F_euro, C_scientist_01_informal_F, C_Man_2_enoch_F, C_Man_3_enoch_F, C_Man_1_enoch_F, C_Farmer_01_enoch_F
+```
+
+LIVONIA (Vehicles)
+
+```sqf
+C_Truck_02_covered_F, C_Truck_02_fuel_F, C_Offroad_01_F, C_Offroad_01_covered_F, C_SUV_01_F, C_Van_01_transport_F, C_Van_01_box_F, C_Van_02_vehicle_F, C_Van_02_service_F, C_Van_02_transport_F
+```
+
+TAKISTAN (Pedestrians, CUP)
 
 ```sqf
 CUP_C_TK_Man_06_Coat, CUP_C_TK_Man_06_Jack, CUP_C_TK_Man_06_Waist, CUP_C_TK_Man_05_Coat, CUP_C_TK_Man_05_Jack, CUP_C_TK_Man_05_Waist, CUP_C_TK_Man_08, CUP_C_TK_Man_08_Jack, CUP_C_TK_Man_08_Waist, CUP_C_TK_Man_07, CUP_C_TK_Man_07_Coat, CUP_C_TK_Man_07_Waist, CUP_C_TK_Man_04, CUP_C_TK_Man_04_Jack, CUP_C_TK_Man_04_Waist, CUP_C_TK_Man_02, CUP_C_TK_Man_02_Jack, CUP_C_TK_Man_02_Waist, CUP_C_TK_Man_01_Waist, CUP_C_TK_Man_01_Coat, CUP_C_TK_Man_01_Jack, CUP_C_TK_Man_03_Coat, CUP_C_TK_Man_03_Jack, CUP_C_TK_Man_03_Waist
 ```
 
-TAKISTAN (Vehicles)
+TAKISTAN (Vehicles, CUP)
 
 ```sqf
 CUP_C_Volha_Blue_TKCIV, CUP_C_Volha_Gray_TKCIV, CUP_C_S1203_CIV, CUP_C_Volha_Limo_TKCIV, CUP_O_Hilux_unarmed_TK_CIV, CUP_O_Hilux_unarmed_TK_CIV_Tan, CUP_C_UAZ_Unarmed_TK_CIV, CUP_C_LR_Transport_CTK, CUP_O_Hilux_unarmed_TK_CIV_White, CUP_C_UAZ_Open_TK_CIV, CUP_C_Ural_Civ_01, CUP_C_Lada_GreenTK_CIV, CUP_C_Octavia_CIV, CUP_C_Pickup_unarmed_CIV, CUP_C_Golf4_black_Civ, CUP_C_Golf4_white_Civ, CUP_C_Golf4_yellow_Civ
