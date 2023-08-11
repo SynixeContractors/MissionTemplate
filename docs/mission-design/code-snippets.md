@@ -6,10 +6,10 @@ Here are a few simple lines of code you can safely use to add unique gimmicks to
 
 ### Setting maximum speed on a vehicle
 
-Do you want a vehicle to be slow, either due to heavy loads, malfunction, or other reasons? Try using putting this in it's init field:
+Do you want a vehicle to be slow, either due to heavy loads, malfunction, or other reasons? Try using putting this in it's init field and replacing XX with the speed you want in KM/H:
 
 ```sqf
-this setCruiseControl [40, false];
+this setCruiseControl [XX, false];
 ```
 
 ### Drag and load items with ACE

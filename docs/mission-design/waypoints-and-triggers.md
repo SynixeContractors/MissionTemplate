@@ -33,7 +33,7 @@ If we want something to happen at a specific in-game time, we can put the follow
 ```
 
 ```admonish info
-`date select 3` stands for HOUR, while `date select 4` stands for MINUTES. This includes both of them, if you only want to use one or the other, you can keep one of either and remove the &&'s.
+`(date select 3)` stands for HOUR, while `(date select 4)` stands for MINUTES. This includes both of them, if you only want to use one or the other, you can keep one of either and remove the &&'s.
 ```
 
 ## Trigger-activated Waypoints
