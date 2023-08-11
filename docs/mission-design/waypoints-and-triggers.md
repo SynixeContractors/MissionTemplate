@@ -8,6 +8,14 @@ Triggers are something incredibly useful, and often intuitive to add a special c
 In most cases, we will need to define a variableName for the item we want to track; this is basically the game's / computer's way of knowing which item in specific we are reffering to. You can set this by opening an item's attributes either by double-clicking on it, or right-click then go to the Attributes option.
 ```
 
+It is useful to be aware of the following expressions:
+
+`!` means NOT. If we were to use `!alive` this means NOT alive.
+
+`&&` means AND. This lets us combine two lines of code, such as: `!alive variableName1 && alive variableName2`
+
+`||` means OR. This means that either condition will activate the trigger, regardless of the other: `!alive variableName1 || ``alive variableName2`.
+
 ### Checking if a specific unit, object, or vehicle, is alive
 
 If we put `alive variableName` in a trigger's condition field, we will check whether that item is alive or dead to activate the trigger. Once they are dead, the trigger will be activated. If we want to check for the opposite, we can use `!alive variableName` inside the trigger's condition field.
