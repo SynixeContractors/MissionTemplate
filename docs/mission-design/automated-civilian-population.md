@@ -31,7 +31,7 @@ C_Hatchback_01_F, C_SUV_01_F, C_Van_01_transport_F, C_Van_01_box_F, C_Offroad_01
 AFRICAN (Pedestrians)
 
 ```sqf
-`C_man_polo_1_F_afro, C_man_polo_2_F_afro, C_man_polo_3_F_afro, C_man_polo_4_F_afro, C_man_polo_5_F_afro, C_man_polo_6_F_afro, C_Man_casual_6_F_afro, C_Man_casual_5_F_afro, C_Man_casual_4_F_afro
+C_man_polo_1_F_afro, C_man_polo_2_F_afro, C_man_polo_3_F_afro, C_man_polo_4_F_afro, C_man_polo_5_F_afro, C_man_polo_6_F_afro, C_Man_casual_6_F_afro, C_Man_casual_5_F_afro, C_Man_casual_4_F_afro
 ```
 
 AFRICAN (Vehicles)
