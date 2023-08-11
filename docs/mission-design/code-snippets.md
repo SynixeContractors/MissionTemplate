@@ -35,7 +35,9 @@ If you want to make an item loadable into vehicles, use:
 ```
 
 ### Attaching objects to other objects
+
 If you want to attach an object (1) to another object (2), you can use the following inside object (1)'s init field:
+
 ```sqf
 [object1, object2] call BIS_fnc_attachToRelative;
 ```
