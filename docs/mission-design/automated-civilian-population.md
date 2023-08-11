@@ -16,6 +16,7 @@ If you want to define the vehicles you'd like the pedestrians to use, paste the 
 
 Here are some presets we've made in the past for some of our missions, feel free to use them in yours!
 
+~~~admonish collapsible=true title="ALTIS preset"
 ALTIS (Pedestrians)
 
 ```sqf
@@ -27,7 +28,9 @@ ALTIS (Vehicles)
 ```sqf
 C_Hatchback_01_F, C_SUV_01_F, C_Van_01_transport_F, C_Van_01_box_F, C_Offroad_01_F
 ```
+~~~
 
+~~~admonish collapsible=true title="AFRICAN preset"
 AFRICAN (Pedestrians)
 
 ```sqf
@@ -39,7 +42,9 @@ AFRICAN (Vehicles)
 ```sqf
 C_Quadbike_01_F, C_Offroad_02_unarmed_F, C_Van_01_transport_F, C_Van_01_box_F, C_Tractor_01_F
 ```
+~~~
 
+~~~admonish collapsible=true title="CHERNARUS (CUP) preset"
 CHERNARUS (Pedestrians, CUP)
 
 ```sqf
@@ -51,7 +56,9 @@ CHERNARUS (Vehicles, CUP)
 ```sqf
 CUP_C_Lada_CIV,  CUP_C_SUV_CIV,  CUP_C_Volha_CR_CIV,  CUP_C_Skoda_CR_CIV
 ```
+~~~
 
+~~~admonish collapsible=true title="LIVONIA preset"
 LIVONIA (Pedestrians)
 
 ```sqf
@@ -63,7 +70,9 @@ LIVONIA (Vehicles)
 ```sqf
 C_Truck_02_covered_F, C_Truck_02_fuel_F, C_Offroad_01_F, C_Offroad_01_covered_F, C_SUV_01_F, C_Van_01_transport_F, C_Van_01_box_F, C_Van_02_vehicle_F, C_Van_02_service_F, C_Van_02_transport_F
 ```
+~~~
 
+~~~admonish collapsible=true title="TAKISTAN (CUP) preset"
 TAKISTAN (Pedestrians, CUP)
 
 ```sqf
@@ -75,3 +84,4 @@ TAKISTAN (Vehicles, CUP)
 ```sqf
 CUP_C_Volha_Blue_TKCIV, CUP_C_Volha_Gray_TKCIV, CUP_C_S1203_CIV, CUP_C_Volha_Limo_TKCIV, CUP_O_Hilux_unarmed_TK_CIV, CUP_O_Hilux_unarmed_TK_CIV_Tan, CUP_C_UAZ_Unarmed_TK_CIV, CUP_C_LR_Transport_CTK, CUP_O_Hilux_unarmed_TK_CIV_White, CUP_C_UAZ_Open_TK_CIV, CUP_C_Ural_Civ_01, CUP_C_Lada_GreenTK_CIV, CUP_C_Octavia_CIV, CUP_C_Pickup_unarmed_CIV, CUP_C_Golf4_black_Civ, CUP_C_Golf4_white_Civ, CUP_C_Golf4_yellow_Civ
 ```
+~~~
