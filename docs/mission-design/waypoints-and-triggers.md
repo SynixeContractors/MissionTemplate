@@ -17,6 +17,9 @@ Do you want something to happen when a certain unit is killed, or when a structu
 ### Checking if a specific unit, object, or vehicle, is inside the trigger
 We can use "variableName in thisList" inside a trigger's condition field to check if a specific unit is present inside of it.
 
+### Checking if another trigger was activated beforehand
+If we want to have a trigger depend on another trigger, we can use "triggerActivated triggerName" within another trigger's condition field to make it depend upon another trigger having been activated previously, meaning that, this trigger won't activate on it's own.
+
 ## Trigger-activated Waypoints
 As opposed to most normal waypoints, some waypoints never get completed on their own when the AI reach their position, and as such, they need something external to activate them; we will most commonly find ourselves using the HOLD and CYCLE waypoints under this premise.
 
@@ -25,5 +28,5 @@ Say we wanted to add a group of enemies that will wait at one position, until a 
 If we want to have a group patrol until a trigger is activated, we can follow this same structure, except we sync the CYCLE waypoint to a trigger.
 
 ```admonish warning title="Warning"
-Make sure that within your waypoint activation trigger, that you set it's Type to Skip Waypoint, otherwise it wil not work!
+Make sure that within your waypoint activation trigger that you set it's Type to Skip Waypoint, otherwise it will not work!
 ```

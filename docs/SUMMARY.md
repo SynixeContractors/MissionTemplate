@@ -14,3 +14,4 @@
 - [Mission Design](mission-design/README.md)
     - [General Considerations](mission-design/general-considerations.md)
     - [Waypoints & Triggers](mission-design/waypoints-and-triggers.md)
+    - [Code Snippets](mission-design/code-snippets.md)
