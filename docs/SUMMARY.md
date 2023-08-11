@@ -15,3 +15,4 @@
     - [General Considerations](mission-design/general-considerations.md)
     - [Waypoints & Triggers](mission-design/waypoints-and-triggers.md)
     - [Code Snippets](mission-design/code-snippets.md)
+    - [Automated Civilian Population](mission-design/automated-civilian-population.md)
