@@ -4,14 +4,6 @@
 
 Here are a few simple lines of code you can safely use to add unique gimmicks to your missions without adding too much complexity onto your workload! This is a compilation list of interesting things to put in an items's init field.
 
-### Setting maximum speed on a vehicle
-
-Do you want a vehicle to be slow, either due to heavy loads, malfunction, or other reasons? Try using putting this in it's init field and replacing XX with the speed you want in KM/H:
-
-```sqf
-this setCruiseControl [XX, false];
-```
-
 ### Drag and load items with ACE
 
 Do you want to add extra functionality for items you'd like players to be able to drag, carry, and load into vehicles? Try using any of the following in their init field!
@@ -39,7 +31,7 @@ If you want to make an item loadable into vehicles, use:
 If you want to attach an object (1) to another object (2), you can use the following inside object (1)'s init field:
 
 ```sqf
-[object1, object2] call BIS_fnc_attachToRelative;
+[variableName1, variableName2] call BIS_fnc_attachToRelative;
 ```
 
 ```admonish info
