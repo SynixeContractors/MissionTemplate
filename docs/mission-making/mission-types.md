@@ -14,7 +14,8 @@ Synixe Contractors. Each mission type has its own unique requirements.
 ## Contracts (CO)
 
 Our main mission type. Contracts are the bread and butter of
-Synixe Contractors. They are the most common mission type, and what you will be making most of the time.
+Synixe Contractors. They are the most common mission type, and what you
+will be making most of the time.
 
 ## Sub-Contracts (SCO)
 
