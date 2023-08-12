@@ -3,10 +3,8 @@
 params ["_extraTitles"];
 
 private _titles = [
-    "Employer",
     "Situation",
     "Mission",
-    "Restrictions",
     "Objectives"
 ];
 _titles append _extraTitles;
