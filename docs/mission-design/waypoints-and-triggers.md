@@ -14,7 +14,7 @@ It is useful to be aware of the following expressions:
 
 `&&` means AND. This lets us combine two lines of code, such as: `!alive variableName1 && alive variableName2`.
 
-`||` means OR. This means that either condition will activate the trigger, regardless of the other: `!alive variableName1 || ``alive variableName2`.
+`||` means OR. This means that either condition will activate the trigger, regardless of the other: `!alive variableName1 || alive variableName2`.
 
 ### Checking if a specific unit, object, or vehicle, is alive
 
