@@ -2,7 +2,8 @@
 
 ## Update your local repository
 
-The first step before starting a new mission is to make sure your local repository is up to date.
+The first step before starting a new mission is to make sure your
+local repository is up to date.
 
 <video width="99%" loop muted markdown="1" controls>
     <source src="../videos/gh_fetch_pull.webm" type="video/webm" markdown="1">
@@ -16,11 +17,13 @@ The first step before starting a new mission is to make sure your local reposito
 
 ## Create a new branch
 
-Each mission should have its own branch. This allows you to work on multiple missions at the same time without having to worry about conflicts.
+Each mission must have its own branch. This allows you to work on
+multiple missions at the same time without having to worry about conflicts.
 
-Each branch should be named after the mission. See [Mission Typess](./mission-types.md) for more information on mission types.
+Each branch is named after the mission. See [Mission Typess](./mission-types.md)
+for more information on mission types.
 
-```
+```txt
 {Type}{Players}_{Author}_{Name}
 
 CO30_Brett_ThroughThePassage
@@ -44,7 +47,8 @@ SPC12_Matias_6v6CTF
 
 ## Editor
 
-Open the Arma 3 editor on your map of choice. The first thing you should do is save the mission. The name of the mission should match the name of the branch.
+Open the Arma 3 editor on your map of choice. The first thing you should do
+is save the mission. The name of the mission should match the name of the branch.
 
 Save the mission under the correct folder, depending on the mission type.
 
@@ -65,7 +69,8 @@ Always uncheck "Binarize the Scenario File" when saving the mission.
 
 ## Mission Template
 
-The mission template is a starting point for all missions. It contains everything needed to create a Synixe Contractors mission.
+The mission template is a starting point for all missions. It contains everything
+needed to create a Synixe Contractors mission.
 
 It can be downloaded from [GitHub](https://github.com/SynixeContractors/MissionTemplate/releases/latest).
 
