@@ -6,9 +6,9 @@ GRAD CIVS is a useful addon that brings a functionality to make the ambience of 
 
 If you would like to enable it on your mission, you can go to Settings > Addon Options > Mission and then make sure you tick on the checkbox to `Enable GRAD_CIVS`.
 
-## GRAD CIVS presets
+## GRAD CIVS Presets
 
-To use these presets, go into Settings > Addon Options > Mission, and then click the dropdown menu and find GRAD CIVS.
+To use these presets, go into `Settings > Addon Options > Mission`, and then click the dropdown menu and find GRAD CIVS.
 
 If you want to define the pedestrians you'd like to be spawned, paste the code in the `Unit classes to use for spawning civilians` field.
 

@@ -1,6 +1,6 @@
 # Code Snippets
 
-## Easy plug-and-play coding snippets
+## Init Fields
 
 Here are a few simple lines of code you can safely use to add unique gimmicks to your missions without adding too much complexity onto your workload! This is a compilation list of interesting things to put in an items's init field.
 
@@ -12,7 +12,7 @@ When units are in a group, no matter how you place them in 3DEN, they will retur
 doStop this;
 ```
 
-### Drag and load items with ACE
+### ACE Carry & Drag
 
 Do you want to add extra functionality for items you'd like players to be able to drag, carry, and load into vehicles? Try using any of the following in their init field!
 
