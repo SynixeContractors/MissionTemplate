@@ -6,8 +6,7 @@ If you don't already have a GitHub account, you can create one for free at [gith
 
 ## Link your GitHub account to your Discord account
 
-Within the Synixe Contractors Discord server, you can link your GitHub account by
-running the command `/github invite`. Provide your GitHub username when prompted.
+You will need to ask a Staff member to invite you to the Synixe Contractors GitHub organization.
 
 You will receive an invite to the email address associated with your GitHub account,
 or you can visit the [GitHub Organization](https://github.com/SynixeContractors).
