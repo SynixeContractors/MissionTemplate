@@ -1,13 +1,11 @@
 #include "..\do_not_edit\script_component.hpp"
 
-params ["_extraTitles"];
-
 private _titles = [
     "Situation",
     "Mission",
     "Objectives"
 ];
-_titles append _extraTitles;
+_titles append _this;
 reverse _titles;
 
 private _fnc_createRecord = {
