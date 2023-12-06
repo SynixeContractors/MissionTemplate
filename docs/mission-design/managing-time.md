@@ -17,6 +17,24 @@ Travel time can be managed by:
 - Keeping the objectives relatively close to each other
 - Keeping the last objective close to the FOB
 
+## Pacing & Recovery
+
+It is important to consider the pacing of the mission, and how much time the
+players will have to recover between objectives. If the players are constantly
+under pressure, they will not have time to recover. This is not bad in moderation,
+but you should be careful not to overdo it, causing the mission to become
+exhausting and disorganized to the point where the players are not having fun.
+
+You can manage the pacing of the mission by:
+
+- Having multiple smaller QRFs that arrive at different times
+- Allowing some objectives to be done in any order
+- Delaying QRFs until the garrisoned units are dead, allowing for a brief pause
+
+Varying the pacing of the mission can be a good way to keep the players engaged
+and on their toes. Periods of low intensity and high intensity can be used to
+create a dynamic battlefield.
+
 ## Avoiding the Long Drive Back
 
 At the end of the missions, the players will want to get back to the FOB,
