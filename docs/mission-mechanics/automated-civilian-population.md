@@ -42,7 +42,7 @@ C_Hatchback_01_F, C_SUV_01_F, C_Van_01_transport_F, C_Van_01_box_F, C_Offroad_01
 Tanoa (Pedestrians)
 
 ```sqf
-C_Man_casual_1_F_tanoan, C_Man_casual_2_F_tanoan, C_Man_casual_3_F_tanoan, C_Man_casual_4_v2_F_tanoan, C_Man_casual_5_v2_F_tanoan, C_Man_casual_6_v2_F_tanoan, C_Man_casual_7_F_tanoan, C_Man_casual_9_F_tanoan, C_Man_casual_8_F_tanoan, C_man_sport_1_F_tanoan, C_man_sport_2_F_tanoan, C_man_sport_3_F_tanoan, C_Man_casual_4_F_tanoan, C_Man_casual_5_F_tanoan, C_Man_casual_6_F_tanoan, C_MU_man_random_civil_tanoan,
+C_Man_casual_1_F_tanoan, C_Man_casual_2_F_tanoan, C_Man_casual_3_F_tanoan, C_Man_casual_4_v2_F_tanoan, C_Man_casual_5_v2_F_tanoan, C_Man_casual_6_v2_F_tanoan, C_Man_casual_7_F_tanoan, C_Man_casual_9_F_tanoan, C_Man_casual_8_F_tanoan, C_man_sport_1_F_tanoan, C_man_sport_2_F_tanoan, C_man_sport_3_F_tanoan, C_Man_casual_4_F_tanoan, C_Man_casual_5_F_tanoan, C_Man_casual_6_F_tanoan, C_MU_man_random_civil_tanoan
 ```
 
 Tanoa (Vehicles)
