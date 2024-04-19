@@ -58,5 +58,5 @@ upload, the laptop screen will go black.
 ```
 
 <video width="99%" loop muted markdown="1" controls>
-    <source src="../../videos/fnc_synixe_computerupload.webm" type="video/webm" markdown="1">
+    <source src="../../videos/fnc_synixe_computerUpload.webm" type="video/webm" markdown="1">
 </video>
