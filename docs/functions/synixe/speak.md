@@ -53,13 +53,9 @@ class CfgSounds {
     officer,    // variable name of the officer unit
     "Officer",  // class from CfgSounds in description.ext
     {
-        // Important: this only works in sp, where the player is also the server!
-        // Make sure to handle this properly. Ask for help if you are unsure.
         systemChat "Officer: I'm talking";
     },
     {
-        // Important: this only works in sp, where the player is also the server!
-        // Make sure to handle this properly. Ask for help if you are unsure.
         systemChat "Officer: I'm done";
         // The first time we interact, play an animation and give intel
         params ["_unit", "", "_first"];
@@ -69,7 +65,6 @@ class CfgSounds {
         };
     }
 ] call synixe_missions_fnc_speak;
-
 ```
 
 <video width="99%" loop muted markdown="1" controls>
