@@ -8,7 +8,7 @@ A simple function for creating an ACE interaction menu action on an object.
 - `title`: String - The action name.
 - `action`: Code - The action to perform when the action is selected.
 - `repeatable`: Boolean - Whether the action can be repeated. Default is `false`.
-- `condition`: Code - The condition that must be met for the action to be available. Default is `{true}`.
+- `condition`: Code - The condition for the action to be available. Default is `{true}`.
 - `icon`: String - The icon to display next to the action. Default is the dot.
 
 ## Action Code
@@ -37,7 +37,7 @@ is used.
 **initPlayerLocal.sqf**
 ```sqf
 [
-    this,
+    laptop,
     "Press Enter",
     {
         [_player, "PutDown"] call ace_common_fnc_doGesture;
