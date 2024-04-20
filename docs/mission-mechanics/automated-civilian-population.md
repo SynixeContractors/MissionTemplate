@@ -178,6 +178,7 @@ If you want to define a chance for your pedestrians to use backpacks,
 paste the code below in the `Backpacks that civilians may wear` field.
 
 ~~~admonish collapsible=true title="BACKPACK presets"
+BACKPACKS
 
 ```sqf
 B_Messenger_Black_F, B_Messenger_Coyote_F, B_Messenger_Gray_F,
