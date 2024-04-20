@@ -173,3 +173,15 @@ C_Van_01_transport_F, C_Van_01_box_F, C_Truck_02_flatbed_lxWS,
 C_Truck_02_cargo_lxWS, C_Offroad_01_F, C_Offroad_02_unarmed_F, C_Quadbike_01_F, C_Offroad_01_covered_F
 ```
 ~~~
+
+If you want to define a chance for your pedestrians to use backpacks,
+paste the code below in the `Backpacks that civilians may wear` field.
+
+~~~admonish collapsible=true title="BACKPACK presets"
+
+```sqf
+B_Messenger_Black_F, B_Messenger_Coyote_F, B_Messenger_Gray_F,
+B_Messenger_Olive_F, B_CivilianBackpack_01_Everyday_Black_F,
+B_CivilianBackpack_01_Sport_Blue_F, B_CivilianBackpack_01_Sport_Green_F, B_CivilianBackpack_01_Sport_Red_F
+```
+~~~
