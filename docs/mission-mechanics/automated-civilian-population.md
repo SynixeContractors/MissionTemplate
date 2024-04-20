@@ -1,6 +1,6 @@
 # Automated civilian population
 
-## Utilizing GRAD CIVS
+## Enabling GRAD CIVS
 
 GRAD CIVS is a useful addon that brings a functionality to make the ambience of
 a virtual world more lively by populating it with civilians.
@@ -8,6 +8,37 @@ a virtual world more lively by populating it with civilians.
 If you would like to enable it on your mission, you can go to
 `Settings > Addon Options > Mission` and then make sure you tick on the
 checkbox to `Enable GRAD_CIVS`.
+
+## GRAD CIVS Population types
+
+GRAD CIVS will by default populate the whole world when enabled, however, we can
+further fine-tune how we want it to handle our civilian population.
+
+To do this, you'll want to place down a `Trigger` and choose it's size, which will
+define how much of an area we will affect, then, we will place either a
+`Population zone` or an `Exclusion zone` module from the ´GRAD CIVS´ category.
+
+Placing a `Population zone` will make GRAD CIVS only spawn civilians in the areas
+you define, and nowhere else, as opposed to populating the whole map as needed.
+
+Placing an `Exclusion zone` will prevent GRAD CIVS from spawning civilians within
+the areas you defined.
+
+## GRAD CIVS Transit
+
+If you want to define a main route of transit utilizing GRAD CIVS, you will
+use the `Transit Traffic Source` and `Transit Traffic Sink` modules.
+
+`Transit Traffic Source` will define where vehicles will spawn and start at, while
+`Transit Traffic Sink` will define where vehicles' destination will be and where
+they will despawn. You will have to `Connect > Sync to` each Source module to their
+corresponding Sink module.
+
+```admonish
+You should prefferably put the Source and Sink in places where players will not
+run into them, like outside the area of operations; otherwise, players will see
+where vehicles spawn and despawn, thus ruining their immersion.
+```
 
 ## GRAD CIVS Presets
 
@@ -34,7 +65,8 @@ C_man_polo_6_F, C_man_polo_1_F_afro, C_man_polo_5_F_afro
 ALTIS (Vehicles)
 
 ```sqf
-C_Hatchback_01_F, C_SUV_01_F, C_Van_01_transport_F, C_Van_01_box_F, C_Offroad_01_F, C_Offroad_02_unarmed_F
+C_Hatchback_01_F, C_SUV_01_F, C_Van_01_transport_F, C_Van_01_box_F, C_Offroad_01_F,
+C_Offroad_02_unarmed_F, C_Pickup_covered_rf, C_Pickup_rf
 ```
 ~~~
 
@@ -42,13 +74,18 @@ C_Hatchback_01_F, C_SUV_01_F, C_Van_01_transport_F, C_Van_01_box_F, C_Offroad_01
 Tanoa (Pedestrians)
 
 ```sqf
-C_Man_casual_1_F_tanoan, C_Man_casual_2_F_tanoan, C_Man_casual_3_F_tanoan, C_Man_casual_4_v2_F_tanoan, C_Man_casual_5_v2_F_tanoan, C_Man_casual_6_v2_F_tanoan, C_Man_casual_7_F_tanoan, C_Man_casual_9_F_tanoan, C_Man_casual_8_F_tanoan, C_man_sport_1_F_tanoan, C_man_sport_2_F_tanoan, C_man_sport_3_F_tanoan, C_Man_casual_4_F_tanoan, C_Man_casual_5_F_tanoan, C_Man_casual_6_F_tanoan, C_MU_man_random_civil_tanoan
+C_Man_casual_1_F_tanoan, C_Man_casual_2_F_tanoan, C_Man_casual_3_F_tanoan, 
+C_Man_casual_4_v2_F_tanoan, C_Man_casual_5_v2_F_tanoan, C_Man_casual_6_v2_F_tanoan,
+C_Man_casual_7_F_tanoan, C_Man_casual_9_F_tanoan, C_Man_casual_8_F_tanoan, 
+C_man_sport_1_F_tanoan, C_man_sport_2_F_tanoan, C_man_sport_3_F_tanoan, 
+C_Man_casual_4_F_tanoan, C_Man_casual_5_F_tanoan, C_Man_casual_6_F_tanoan, C_MU_man_random_civil_tanoan
 ```
 
 Tanoa (Vehicles)
 
 ```sqf
-C_Hatchback_01_F, C_SUV_01_F, C_Van_01_transport_F, C_Van_01_box_F, C_Offroad_01_F, C_Offroad_02_unarmed_F
+C_Hatchback_01_F, C_SUV_01_F, C_Van_01_transport_F, C_Van_01_box_F,
+C_Offroad_01_F, C_Offroad_02_unarmed_F, C_Pickup_covered_rf, C_Pickup_rf
 ```
 ~~~
 
@@ -68,6 +105,16 @@ C_Quadbike_01_F, C_Offroad_02_unarmed_F, C_Van_01_transport_F, C_Van_01_box_F, C
 ```
 ~~~
 
+~~~admonish collapsible=true title="ASIAN preset"
+ASIAN (Pedestrians)
+
+```sqf
+C_Man_casual_1_F_asia, C_Man_casual_2_F_asia, C_Man_casual_3_F_asia
+C_Man_casual_4_v2_F_asia, C_Man_casual_5_v2_F_asia, C_Man_casual_6_v2_F_asia
+C_Man_casual_7_F_asia, C_Man_casual_8_F_asia, C_Man_casual_9_F_asia
+```
+~~~
+
 ~~~admonish collapsible=true title="CHERNARUS (CUP) preset"
 CHERNARUS (Pedestrians, CUP)
 
@@ -75,12 +122,6 @@ CHERNARUS (Pedestrians, CUP)
 CUP_C_C_Bully_03, CUP_C_C_Bully_02, CUP_C_C_Citizen_01, CUP_C_C_Citizen_03,
 CUP_C_C_Profiteer_02, CUP_C_C_Racketeer_01, CUP_C_C_Rocker_03, CUP_C_C_Villager_03,
 CUP_C_C_Villager_04, CUP_C_C_Woodlander_03
-```
-
-CHERNARUS (Vehicles, CUP)
-
-```sqf
-CUP_C_Lada_CIV, CUP_C_SUV_CIV, CUP_C_Volha_CR_CIV, CUP_C_Skoda_CR_CIV
 ```
 ~~~
 
@@ -98,7 +139,7 @@ LIVONIA (Vehicles)
 ```sqf
 C_Truck_02_covered_F, C_Truck_02_fuel_F, C_Offroad_01_F, C_Offroad_01_covered_F,
 C_SUV_01_F, C_Van_01_transport_F, C_Van_01_box_F, C_Van_02_vehicle_F, C_Van_02_service_F,
-C_Van_02_transport_F
+C_Van_02_transport_F, C_Pickup_covered_rf, C_Pickup_rf
 ```
 ~~~
 
@@ -113,14 +154,22 @@ CUP_C_TK_Man_04, CUP_C_TK_Man_04_Jack, CUP_C_TK_Man_04_Waist, CUP_C_TK_Man_02,
 CUP_C_TK_Man_02_Jack, CUP_C_TK_Man_02_Waist, CUP_C_TK_Man_01_Waist, CUP_C_TK_Man_01_Coat,
 CUP_C_TK_Man_01_Jack, CUP_C_TK_Man_03_Coat, CUP_C_TK_Man_03_Jack, CUP_C_TK_Man_03_Waist
 ```
+~~~
 
-TAKISTAN (Vehicles, CUP)
+~~~admonish collapsible=true title="SEFROU-RAMAL (WS) preset"
+SEFROU-RAMAL (Pedestrians, WS)
 
 ```sqf
-CUP_C_Volha_Blue_TKCIV, CUP_C_Volha_Gray_TKCIV, CUP_C_S1203_CIV, CUP_C_Volha_Limo_TKCIV,
-CUP_O_Hilux_unarmed_TK_CIV, CUP_O_Hilux_unarmed_TK_CIV_Tan, CUP_C_UAZ_Unarmed_TK_CIV,
-CUP_C_LR_Transport_CTK, CUP_O_Hilux_unarmed_TK_CIV_White, CUP_C_UAZ_Open_TK_CIV,
-CUP_C_Ural_Civ_01, CUP_C_Lada_GreenTK_CIV, CUP_C_Octavia_CIV, CUP_C_Pickup_unarmed_CIV,
-CUP_C_Golf4_black_Civ, CUP_C_Golf4_white_Civ, CUP_C_Golf4_yellow_Civ
+C_Djella_01_lxWS, C_Djella_02_lxWS, C_Djella_03_lxWS, C_Djella_04_lxWS, 
+C_Djella_05_lxWS,C_Tak_02_A_lxWS, C_Tak_02_B_lxWS, C_Tak_02_C_lxWS, 
+C_Tak_03_A_lxWS, C_Tak_03_B_lxWS, C_Tak_03_C_lxWS, C_Tak_01_A_lxWS, 
+C_Tak_01_B_lxWS, C_Tak_01_C_lxWs
+```
+
+SEFROU-RAMAL (Vehicles, WS)
+
+```sqf
+C_Van_01_transport_F, C_Van_01_box_F, C_Truck_02_flatbed_lxWS, 
+C_Truck_02_cargo_lxWS, C_Offroad_01_F, C_Offroad_02_unarmed_F, C_Quadbike_01_F, C_Offroad_01_covered_F
 ```
 ~~~
